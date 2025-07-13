@@ -46,7 +46,7 @@ const Hero = () => {
       })
       .to(".right-leaf", { y: 200 }, 0)
       .to(".left-leaf", { y: -200 }, 0);
-      // .to(".arrow", { y: 100 }, 0);
+    // .to(".arrow", { y: 100 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
     const endValue = isMobile ? "120% top" : "bottom top";
@@ -74,13 +74,13 @@ const Hero = () => {
         <h1 className="title">APPEROL</h1>
 
         <img
-          src="/images/hero-left-leaf.png"
+          src="https://dmeckers.github.io/gsap-cocktails-demo/images/hero-left-leaf.png"
           alt="left-leaf"
           className="left-leaf"
         />
 
         <img
-          src="/images/hero-right-leaf.png"
+          src="https://dmeckers.github.io/gsap-cocktails-demo/images/hero-right-leaf.png"
           alt="right-leaf"
           className="right-leaf"
         />
@@ -108,7 +108,7 @@ const Hero = () => {
 
       <div className="video absolute inset-0">
         <video
-          src="/videos/output.mp4"
+          src="https://dmeckers.github.io/gsap-cocktails-demo/videos/output.mp4"
           muted
           playsInline
           preload="auto"
